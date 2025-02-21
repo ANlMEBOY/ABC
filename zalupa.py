@@ -105,3 +105,4 @@ for i in a:
         b=''
 c.append(b)
 print(c)
+print(c)
