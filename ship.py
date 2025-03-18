@@ -15,12 +15,9 @@ class Ship():
         self.rect.midbottom = self.screen_rect.midbottom
         # Сохранение вещественной координаты центра корабля.
         self.x = float(self.rect.x)
-
-        # Фраг перемещения
+        # Фраги перемещения
         self.moving_right = False
         self.moving_left = False
-
-
 
     def update(self):
         """Обновляет позицию корабля с учетом флага."""
